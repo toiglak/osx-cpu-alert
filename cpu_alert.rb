@@ -1,6 +1,6 @@
 #!/usr/local/bin/ruby
 
-max_load = 3
+max_load = 5
 
 load = `sysctl -n vm.loadavg`
 puts load
